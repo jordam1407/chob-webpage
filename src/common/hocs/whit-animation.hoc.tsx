@@ -1,12 +1,12 @@
 import { FC } from 'react'
 
-import { FadeIn, FadeUp } from '@/components/animations'
+import { FadeIn, FadeUp, BlurAnimate } from '@/components/animations'
 
 function getDisplayName(WrappedComponent: FC) {
     return WrappedComponent.displayName || WrappedComponent.name || 'Component'
 }
 
-function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fade-in') {
+function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fade-in' | 'roll') {
     function ComponentWithAnimationHandling(props: P) {
         if (type === 'fade-in') {
             return (
@@ -21,6 +21,14 @@ function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fa
                 <FadeUp>
                     <Component {...(props as P)} />
                 </FadeUp>
+            )
+        }
+
+        if (type === 'roll') {
+            return (
+                <BlurAnimate>
+                    <Component {...(props as P)} />
+                </BlurAnimate>
             )
         }
 

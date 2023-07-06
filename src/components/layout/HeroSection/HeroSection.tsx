@@ -1,10 +1,12 @@
+import { BlurAnimate } from '@/components/animations'
+
 function HeroSection() {
     return (
         <section className="bg-chobDark py-16">
             <div className="bg-chobDark">
                 <div className="container relative mx-auto flex flex-col items-center md:justify-center pt-24 md:pt-0">
-                    <div className="w-[197px] opacity-40 h-[195px] bg-chobOrange-400 rounded-[32px] blur-[120px] absolute z-50 right-32 top-16" />
-                    <div className="w-[151px] h-[122px] opacity-70 bg-sky-400 rounded-full blur-[120px] absolute z-50 left-32 top-36" />
+                    <BlurAnimate extra={'w-[151px] h-[122px] bg-sky-400 blur-[120px] z-50 right-32 top-16'} />
+                    <BlurAnimate extra={'w-[151px] h-[122px] bg-sky-400 blur-[120px] z-50 left-32 top-36'} />
                     <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
                         <h1 className="text-2xl sm:text-3xl font-custom md:text-4xl lg:text-6xl xl:text-7xl text-center text-gray-100 font-medium leading-7 md:leading-10">
                             Transforme Visitantes em Clientes!
