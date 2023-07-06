@@ -1,16 +1,12 @@
 function HeroSection() {
     return (
-        <section className="bg-chobDark relative overflow-hidden font-custom py-24">
+        <section className="bg-chobDark py-16">
             <div className="bg-chobDark">
                 <div className="container relative mx-auto flex flex-col items-center md:justify-center pt-24 md:pt-0">
-                    <div className="w-[197px] opacity-40 h-[195px] bg-chobOrange-400 rounded-[32px] blur-[120px] absolute z-50 right-32 top-96" />
+                    <div className="w-[197px] opacity-40 h-[195px] bg-chobOrange-400 rounded-[32px] blur-[120px] absolute z-50 right-32 top-16" />
                     <div className="w-[151px] h-[122px] opacity-70 bg-sky-400 rounded-full blur-[120px] absolute z-50 left-32 top-36" />
                     <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
-                        <h1 className="text-2xl sm:text-3xl font-custom md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-100 font-medium leading-7 md:leading-10">
-                            Aumente suas Conversões com{' '}
-                            <span className="md:bg-markdown-svg bg-markdown-svg-small bg-no-repeat bg-bottom bg-contain">
-                                Chob:
-                            </span>{' '}
+                        <h1 className="text-2xl sm:text-3xl font-custom md:text-4xl lg:text-6xl xl:text-7xl text-center text-gray-100 font-medium leading-7 md:leading-10">
                             Transforme Visitantes em Clientes!
                         </h1>
                         <p className="font-custom mt-5 sm:mt-10 lg:w-10/12 text-gray-300 font-normal text-center text-sm sm:text-lg">
@@ -58,21 +54,6 @@ function HeroSection() {
                             </svg>
                         </a>
                     </div>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="absolute md:bottom-0 bottom-32 animate-bounce"
-                        width="40"
-                        height="40"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        stroke="white"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M7 7l5 5l5 -5" />
-                        <path d="M7 13l5 5l5 -5" />
-                    </svg>
                 </div>
             </div>
         </section>

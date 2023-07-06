@@ -11,6 +11,9 @@ module.exports = {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
                 'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
             },
+            boxShadow: {
+                '2xl': '0 25px 50px 35px rgba(0, 0, 0, 0.7)',
+            },
             colors: {
                 chobOrange: {
                     50: '#fffbea',

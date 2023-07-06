@@ -67,7 +67,7 @@ export default function Footer() {
         },
     ]
     return (
-        <footer className="bg-white">
+        <footer className="bg-chobDark">
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="flex flex-col">
                     <span className="mx-auto text-gray-500 text-sm">Transformando visitantes em clientes.</span>
@@ -76,7 +76,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 gap-8 border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
                     {items.map((item, i) => (
                         <div key={i}>
-                            <p className="font-semibold text-gray-900">{item.title}</p>
+                            <p className="font-semibold text-gray-300">{item.title}</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 {item.links.map((link, i) => (
@@ -92,7 +92,7 @@ export default function Footer() {
                         </div>
                     ))}
                     <div>
-                        <p className="font-semibold text-gray-900">Siga a Leadster</p>
+                        <p className="font-semibold text-gray-300">Siga a Leadster</p>
 
                         <ul className="mt-6 flex justify-start gap-6">
                             <li className="bg-gray-100 p-3 rounded-full text-gray-500 hover:bg-[#00aff0] hover:text-gray-50 cursor-pointer ease-in-out duration-500">

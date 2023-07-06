@@ -12,8 +12,8 @@ const space = SpaceGrotesk({
     weight: ['300', '400', '500'],
 })
 
-const title = 'SIGE Tecnologia'
-const description = 'Sistema de gestão para clínicas'
+const title = 'Chob'
+const description = 'Landing Page for Chob'
 
 export const metadata: Metadata = {
     title: title,
