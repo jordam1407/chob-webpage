@@ -81,8 +81,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="pt_BR">
             <Suspense fallback={<HomeLoading />}>
-                <body className={space.className}>
-                    <NavigationHeader image="images/logo_sige_tecnologia_light.png" navs={navs} />
+                <body className={`${space.className} overflow-x-hidden`}>
+                    <NavigationHeader image="images/vercel.svg" navs={navs} />
+                    <div className="z-10 rounded-[32px] absolute w-[120px] h-[280px] bg-blue-600 sm:blur-[130px] blur-[80px] sm:-top-28 -top-20 -left-16" />
+                    <div className="z-10 rounded-[32px] absolute w-[120px] h-[180px] bg-blue-600 sm:blur-[130px] blur-[80px] sm:top-0 top-36 -right-16" />
                     {children}
                     <Footer />
                 </body>

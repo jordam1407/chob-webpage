@@ -100,7 +100,7 @@ export default function Footer() {
                                     <svg
                                         stroke="currentColor"
                                         fill="currentColor"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                         viewBox="0 0 448 512"
                                         height="18px"
                                         width="18px"
@@ -115,7 +115,7 @@ export default function Footer() {
                                     <svg
                                         stroke="currentColor"
                                         fill="currentColor"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                         viewBox="0 0 320 512"
                                         height="18px"
                                         width="18px"
@@ -130,7 +130,7 @@ export default function Footer() {
                                     <svg
                                         stroke="currentColor"
                                         fill="currentColor"
-                                        stroke-width="0"
+                                        strokeWidth="0"
                                         viewBox="0 0 448 512"
                                         height="18px"
                                         width="18px"
@@ -141,12 +141,8 @@ export default function Footer() {
                             </li>
                         </ul>
                         <div className="flex flex-col mt-4 text-sm text-gray-500">
-                            <span>
-                                <span className="font-semibold">E-mail:</span> contato@leadster.com.br
-                            </span>
-                            <span>
-                                <span className="font-semibold">Telefone:</span> (42) 988289851
-                            </span>
+                            <span className="font-semibold">E-mail: contato@leadster.com.br</span>
+                            <span className="font-semibold">Telefone: (42) 988289851</span>
                         </div>
                     </div>
                 </div>

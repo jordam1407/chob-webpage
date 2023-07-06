@@ -7,10 +7,20 @@ export default function BlurAnimate({ extra }: BlurDivProps) {
     return (
         <motion.div
             className={`rounded-[32px] absolute ${extra}`}
-            style={{ backgroundColor: '#FFA500', transformOrigin: 'center' }}
+            style={{ backgroundColor: '#ffbd1b', transformOrigin: 'center' }}
             animate={{
-                rotate: [0, 360],
-                backgroundColor: ['#FFA500', '#FF0000', '#00FF00', '#0000FF', '#FFA500'],
+                scale: [0.9],
+                backgroundColor: [
+                    '#ffbd1b',
+                    '#ffbd1b',
+                    '#ff9900',
+                    '#ff9900',
+                    '#ffbd1b',
+                    '#ff9900',
+                    '#ff9900',
+                    '#ffbd1b',
+                    '#ffbd1b',
+                ],
             }}
             transition={{
                 repeat: Infinity,

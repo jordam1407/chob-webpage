@@ -3,19 +3,20 @@
 import { useState } from 'react'
 
 import { NavigationHeaderProps } from './NavigationHeader.types'
+import { withAnimation } from '@/common/hocs'
 
 function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
     return (
-        <section className="bg-chobDark overflow-hidden top-0 z-10 md:px-24">
+        <section className="bg-chobDark overflow-hidden top-0 py-4 md:px-24">
             <div className="bg-chobDark">
                 <nav className="flex justify-between p-2 px-4">
                     <div className="flex justify-between items-center w-full">
                         <div className="w-full lg:w-1/3">
-                            <a className="block max-w-max" href="/">
+                            {/* <a className="block max-w-max" href="/">
                                 <img className="h-16" src={image} alt="" />
-                            </a>
+                            </a> */}
                         </div>
                         <div className="w-1/2 xl:w-[40%]">
                             <ul className="hidden lg:flex xl:justify-around text-sm">
@@ -59,7 +60,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                         </svg>
                     </button>
                 </nav>
-                <div className="navbar-menu z-50">
+                <div className="navbar-menu z-50 relative">
                     <div
                         onClick={() => setIsNavOpen((prev) => !prev)}
                         onKeyDown={(event) => {
@@ -130,4 +131,4 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     )
 }
 
-export default NavigationHeader
+export default withAnimation(NavigationHeader, 'fade-in', 0)

@@ -6,11 +6,11 @@ function getDisplayName(WrappedComponent: FC) {
     return WrappedComponent.displayName || WrappedComponent.name || 'Component'
 }
 
-function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fade-in' | 'roll') {
+function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fade-in' | 'roll', animation?: number) {
     function ComponentWithAnimationHandling(props: P) {
         if (type === 'fade-in') {
             return (
-                <FadeIn>
+                <FadeIn animation={animation}>
                     <Component {...(props as P)} />
                 </FadeIn>
             )
@@ -18,7 +18,7 @@ function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fa
 
         if (type === 'fade-up') {
             return (
-                <FadeUp>
+                <FadeUp animation={animation}>
                     <Component {...(props as P)} />
                 </FadeUp>
             )
