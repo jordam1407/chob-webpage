@@ -1,0 +1,12 @@
+{
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "explorer.compactFolders": false,
+  "editor.rulers": [120],
+  "editor.insertSpaces": false,
+  "editor.renderLineHighlight": "gutter",
+  "eslint.validate": ["javascript", "typescript"],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
