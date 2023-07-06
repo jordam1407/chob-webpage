@@ -8,7 +8,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
     return (
-        <section className="bg-chobDark overflow-hidden sticky top-0 z-50 md:px-24">
+        <section className="bg-chobDark overflow-hidden sticky top-0 z-10 md:px-24">
             <div className="bg-chobDark">
                 <nav className="flex justify-between p-2 px-4">
                     <div className="flex justify-between items-center w-full">
@@ -23,7 +23,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                                     return (
                                         <li key={`nav-desk-${index}`}>
                                             <a
-                                                className="text-gray-100 hover:text-gray-300 hover:bg-chobDark rounded py-2 px-4 font-medium"
+                                                className="text-gray-100 hover:text-gray-300 hover:bg-chobDark rounded-lg py-2 px-4 font-medium"
                                                 href={link}>
                                                 {text}
                                             </a>
@@ -35,14 +35,12 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                         <div className="w-1/2 lg:w-1/3 flex justify-end">
                             <div className="hidden lg:flex items-center justify-end">
                                 <a
-                                    className="inline-block py-1 px-3 mr-2 leading-5 text-gray-100 border border-chobOrange-600 hover:bg-gradient-to-r hover:from-chobOrange-900/50 rounded hover:to-chobOrange-950/50 text-sm"
+                                    className="inline-block py-1 px-3 mr-2 leading-5 text-gray-100 border border-white/20 hover:bg-gradient-to-r hover:from-chobOrange-900/50 rounded-lg hover:to-chobOrange-950/50 text-sm"
                                     href="/contrate-agora">
                                     Login
                                 </a>
-                            </div>
-                            <div className="hidden lg:flex items-center justify-end">
                                 <a
-                                    className="inline-block py-1 px-3 mr-2 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-600/50 to-chobOrange-700/50 rounded border border-chobOrange-600 hover:from-chobOrange-700/50 hover:to-chobOrange-800/50 text-sm"
+                                    className="inline-block py-1 px-3 mr-2 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-600/50 to-chobOrange-700/50 rounded-lg border border-chobOrange-600 hover:from-chobOrange-700/50 hover:to-chobOrange-800/50 text-sm"
                                     href="/contrate-agora">
                                     Contrate agora
                                 </a>
@@ -90,7 +88,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                                             <a
                                                 key={index}
                                                 onClick={() => setIsNavOpen(false)}
-                                                className="text-gray-100 w-full hover:text-gray-300 hover:bg-chobDark rounded py-2 px-4 font-medium"
+                                                className="text-gray-100 w-full hover:text-gray-300 hover:bg-chobDark rounded-lg py-2 px-4 font-medium"
                                                 href={link}>
                                                 {text}
                                             </a>
@@ -98,9 +96,14 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                                     })}
                                 </ul>
                                 <div className="flex flex-wrap">
-                                    <div className="w-full mb-2">
+                                    <div className="w-full mb-2 space-y-4">
                                         <a
-                                            className="inline-block py-1 px-2 mr-2 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-700/50 to-chobOrange-800/50 rounded font-medium border border-chobOrange-600 hover:from-chobOrange-800/50 hover:to-chobOrange-900/50"
+                                            className="w-[70%] inline-block py-1 px-3 mr-2 leading-5 text-gray-100 border border-chobOrange-600 hover:bg-gradient-to-r hover:from-chobOrange-900/50 rounded-lg hover:to-chobOrange-950/50 text-sm text-center"
+                                            href="/contrate-agora">
+                                            Login
+                                        </a>
+                                        <a
+                                            className="w-[70%] inline-block py-1 px-2 mr-2 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-700/50 to-chobOrange-800/50 rounded-lg font-medium border border-chobOrange-600 hover:from-chobOrange-800/50 hover:to-chobOrange-900/50 text-center"
                                             href="/contrate-agora">
                                             Contrate agora
                                         </a>
