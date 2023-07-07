@@ -24,4 +24,4 @@ function FeatureSection() {
     )
 }
 
-export default withAnimation(FeatureSection, 'fade-up', 0.4)
+export default withAnimation(FeatureSection, 'fade-up', 0.1)

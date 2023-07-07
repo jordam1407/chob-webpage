@@ -3,7 +3,6 @@
 import { useState } from 'react'
 
 import { NavigationHeaderProps } from './NavigationHeader.types'
-import { withAnimation } from '@/common/hocs'
 
 function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
@@ -131,4 +130,4 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     )
 }
 
-export default withAnimation(NavigationHeader, 'fade-in', 0)
+export default NavigationHeader

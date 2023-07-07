@@ -9,7 +9,7 @@ export default function FadeIn({ children, animation }: FadeInProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1, delay: animation }}>
+            transition={{ delay: animation }}>
             {children}
         </motion.div>
     )

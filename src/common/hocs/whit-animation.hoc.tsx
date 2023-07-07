@@ -6,7 +6,7 @@ function getDisplayName(WrappedComponent: FC) {
     return WrappedComponent.displayName || WrappedComponent.name || 'Component'
 }
 
-function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fade-in' | 'roll', animation?: number) {
+function withAnimation<P extends object>(Component: FC<P>, type: 'fade-up' | 'fade-in' | 'nan', animation?: number) {
     function ComponentWithAnimationHandling(props: P) {
         if (type === 'fade-in') {
             return (

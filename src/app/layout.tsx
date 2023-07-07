@@ -60,20 +60,16 @@ const navs = [
         link: '/',
     },
     {
-        text: 'Sobre',
-        link: '/#sobre',
+        text: 'Blog',
+        link: '/blog',
     },
     {
         text: 'Preços',
-        link: '/#precos',
-    },
-    {
-        text: 'FAQ',
-        link: '/#faq',
+        link: '/precos',
     },
     {
         text: 'Contato',
-        link: '/#contact',
+        link: '/contato',
     },
 ]
 
@@ -83,8 +79,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Suspense fallback={<HomeLoading />}>
                 <body className={`${space.className} overflow-x-hidden`}>
                     <NavigationHeader image="images/vercel.svg" navs={navs} />
-                    <div className="z-10 rounded-[32px] absolute w-[120px] h-[280px] bg-blue-600 sm:blur-[130px] blur-[80px] sm:-top-28 -top-20 -left-16" />
-                    <div className="z-10 rounded-[32px] absolute w-[120px] h-[180px] bg-blue-600 sm:blur-[130px] blur-[80px] sm:top-0 top-36 -right-16" />
+                    <div className="z-10 rounded-[32px] absolute sm:w-[120px] sm:h-[280px] w-[120px] h-[180px] bg-blue-600 sm:blur-[130px] blur-[100px] sm:-top-28 -top-20 -left-16" />
+                    <div className="z-10 rounded-[32px] absolute sm:w-[120px] sm:h-[180px] w-[120px] h-[80px] bg-blue-600 sm:blur-[130px] blur-[80px] sm:top-0 top-36 right-0" />
                     {children}
                     <Footer />
                 </body>
