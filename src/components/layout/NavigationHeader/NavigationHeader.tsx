@@ -8,7 +8,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
     return (
-        <section className="bg-chobDark overflow-hidden top-0 py-4 md:px-24">
+        <section className="bg-chobDark overflow-hidden z-50 top-0 py-4 md:px-24">
             <div className="bg-chobDark">
                 <nav className="flex justify-between p-2 px-4">
                     <div className="flex justify-between items-center w-full">

@@ -1,9 +1,8 @@
 import { withAnimation } from '@/common/hocs'
-import React from 'react'
 
 function Cta() {
     return (
-        <div className="flex items-center justify-end space-x-4">
+        <div className="flex items-center justify-end space-x-4 relative z-10">
             <a
                 className="flex sm:py-3 sm:px-6 py-2 px-4 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-600/50 to-chobOrange-700/50 rounded-lg border border-chobOrange-600 hover:from-chobOrange-700/50 hover:to-chobOrange-800/50"
                 href="/contrate-agora">
@@ -46,4 +45,4 @@ function Cta() {
     )
 }
 
-export default withAnimation(Cta, 'fade-in', 0.05)
+export default withAnimation(Cta, 'fade-in', 0.1)

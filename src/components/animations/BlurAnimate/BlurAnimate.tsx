@@ -9,7 +9,7 @@ export default function BlurAnimate({ extra }: BlurDivProps) {
             className={`rounded-[32px] absolute ${extra}`}
             style={{ backgroundColor: '#ffbd1b', transformOrigin: 'center' }}
             animate={{
-                scale: [0.9],
+                scale: [0.9, 1, 0.9],
                 backgroundColor: [
                     '#ffbd1b',
                     '#ffbd1b',
