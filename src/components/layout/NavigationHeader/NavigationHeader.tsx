@@ -2,20 +2,21 @@
 
 import { useState } from 'react'
 
+import logo from '../../../../public/images/logo.png'
 import { NavigationHeaderProps } from './NavigationHeader.types'
 
 function NavigationHeader({ image, navs }: NavigationHeaderProps) {
     const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
     return (
-        <section className="bg-chobDark overflow-hidden z-50 top-0 py-4 md:px-24">
+        <section className="bg-chobDark overflow-hidden z-50 top-0 py-4 md:w-2/3 items-center mx-auto">
             <div className="bg-chobDark">
                 <nav className="flex justify-between p-2 px-4">
                     <div className="flex justify-between items-center w-full">
                         <div className="w-full lg:w-1/3">
-                            {/* <a className="block max-w-max" href="/">
-                                <img className="h-16" src={image} alt="" />
-                            </a> */}
+                            <a className="block max-w-max relative z-50" href="/">
+                                <img className="h-10" src={logo.src} alt="" />
+                            </a>
                         </div>
                         <div className="w-1/2 xl:w-[40%]">
                             <ul className="hidden lg:flex xl:justify-around text-sm">
@@ -80,7 +81,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                         <nav className="relative p-6 h-full overflow-y-auto">
                             <div className="flex flex-col justify-between h-full">
                                 <a className="inline-block" href="/test">
-                                    <img className="h-12" src={image} alt="" />
+                                    <img className="h-8" src={logo.src} alt="" />
                                 </a>
                                 <ul className="py-6 flex flex-col space-y-6">
                                     {navs?.map(({ text, link }, index) => {

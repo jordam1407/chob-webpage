@@ -22,7 +22,7 @@ function BioInsta() {
                             <div className="flex flex-wrap items-center mt-4 w-full">
                                 <a
                                     className="flex text-lg leading-5 text-gray-300 hover:scale-110 transition-all hover:text-chobOrange-600/80"
-                                    href="/contrate-agora">
+                                    href="/blog/poder-das-mensagens">
                                     <span className="my-auto">Saiba mais</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
