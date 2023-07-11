@@ -1,7 +1,8 @@
-import CompSection from '@/components/layout/CompSection/CompSection'
+import BioInsta from '@/components/layout/BioInsta/BioInsta'
 import DashSection from '@/components/layout/DashSection/DashSection'
 import FeatureSection from '@/components/layout/FeatureSection/FeatureSection'
 import HeroSection from '@/components/layout/HeroSection'
+import IntegraSection from '@/components/layout/IntegraSection/IntegraSection'
 
 export default function Home() {
     return (
@@ -9,7 +10,8 @@ export default function Home() {
             <HeroSection />
             <FeatureSection />
             <DashSection />
-            <CompSection />
+            <IntegraSection />
+            <BioInsta />
         </>
     )
 }

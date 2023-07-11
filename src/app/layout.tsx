@@ -67,10 +67,6 @@ const navs = [
         text: 'Preços',
         link: '/precos',
     },
-    {
-        text: 'Contato',
-        link: '/contato',
-    },
 ]
 
 export default function RootLayout({ children }: RootLayoutProps) {

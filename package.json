@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/mdx": "latest",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/mdx": "2.0.3",
     "axios": "^1.4.0",
     "framer-motion": "^10.12.16",
     "next": "13.4.4",
