@@ -29,7 +29,7 @@ export default function Footer() {
     ]
     return (
         <footer className="bg-chobDark">
-            <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+            <div className="mx-auto max-w-screen-xl space-y-4px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="flex flex-col">
                     <span className="mx-auto text-gray-500 text-sm">Transformando visitantes em clientes.</span>
                 </div>

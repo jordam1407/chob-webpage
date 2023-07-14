@@ -37,12 +37,12 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                             <div className="hidden lg:flex items-center justify-end">
                                 <a
                                     className="inline-block py-1 px-3 mr-2 leading-5 text-gray-100 border border-white/20 hover:bg-gradient-to-r hover:from-chobOrange-900/50 rounded-lg hover:to-chobOrange-950/50 text-sm"
-                                    href="/contrate-agora">
+                                    href="https://wa.me/+5531975222507">
                                     Login
                                 </a>
                                 <a
                                     className="inline-block py-1 px-3 mr-2 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-600/50 to-chobOrange-700/50 rounded-lg border border-chobOrange-600 hover:from-chobOrange-700/50 hover:to-chobOrange-800/50 text-sm"
-                                    href="/contrate-agora">
+                                    href="https://wa.me/+5531975222507">
                                     Contrate agora
                                 </a>
                             </div>
@@ -100,12 +100,12 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                                     <div className="w-full mb-2 space-y-4">
                                         <a
                                             className="w-[70%] inline-block py-1 px-3 mr-2 leading-5 text-gray-100 border border-chobOrange-600 hover:bg-gradient-to-r hover:from-chobOrange-900/50 rounded-lg hover:to-chobOrange-950/50 text-sm text-center"
-                                            href="/contrate-agora">
+                                            href="https://wa.me/+5531975222507">
                                             Login
                                         </a>
                                         <a
                                             className="w-[70%] inline-block py-1 px-2 mr-2 leading-5 text-gray-100 bg-gradient-to-r from-chobOrange-700/50 to-chobOrange-800/50 rounded-lg font-medium border border-chobOrange-600 hover:from-chobOrange-800/50 hover:to-chobOrange-900/50 text-center"
-                                            href="/contrate-agora">
+                                            href="https://wa.me/+5531975222507">
                                             Contrate agora
                                         </a>
                                     </div>
