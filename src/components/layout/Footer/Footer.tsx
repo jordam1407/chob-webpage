@@ -1,5 +1,3 @@
-const URL_BASE = 'https://leadster.com.br'
-const URL_CASES = 'https://leadster.com.br/estudo-de-caso/'
 export default function Footer() {
     const items = [
         {
@@ -7,61 +5,24 @@ export default function Footer() {
             links: [
                 {
                     item: 'Home',
-                    url: URL_BASE,
+                    url: '/',
                 },
                 {
-                    item: 'Ferramenta',
-                    url: URL_BASE,
+                    item: 'Blog',
+                    url: '/blog',
                 },
                 {
                     item: 'Preços',
-                    url: 'https://leadster.com.br/preco',
-                },
-                {
-                    item: 'Contato',
-                    url: 'https://leadster.com.br/contato',
+                    url: '/preco',
                 },
             ],
         },
         {
-            title: 'Cases',
+            title: 'Blog',
             links: [
                 {
-                    item: 'Geração de Leads B2B',
-                    url: URL_CASES,
-                },
-                {
-                    item: 'Geração de Leads em Software',
-                    url: URL_CASES,
-                },
-                {
-                    item: 'Geração de Leads em Imobiliária',
-                    url: URL_CASES,
-                },
-                {
-                    item: 'Cases de Sucesso',
-                    url: URL_CASES,
-                },
-            ],
-        },
-        {
-            title: 'Materiais',
-            links: [
-                {
-                    item: 'Blog',
-                    url: 'https://leadster.com.br/blog/',
-                },
-                {
-                    item: 'Parceria com Agências',
-                    url: 'https://leadster.com.br/web-stories/',
-                },
-                {
-                    item: 'Guia Definitivo do Marketing',
-                    url: 'https://leadster.com.br/marketing-conversacional/',
-                },
-                {
-                    item: 'Materiais Gratuitos',
-                    url: 'https://leadster.com.br/materiais/',
+                    item: 'O Poder das Mensagens',
+                    url: '/blog/poder-das-mensagens',
                 },
             ],
         },
@@ -73,7 +34,7 @@ export default function Footer() {
                     <span className="mx-auto text-gray-500 text-sm">Transformando visitantes em clientes.</span>
                 </div>
 
-                <div className="grid grid-cols-1 gap-8 border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
+                <div className="grid grid-cols-1 gap-8 border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-3 lg:pt-16">
                     {items.map((item, i) => (
                         <div key={i}>
                             <p className="font-semibold text-gray-300">{item.title}</p>
@@ -81,9 +42,7 @@ export default function Footer() {
                             <ul className="mt-6 space-y-4 text-sm">
                                 {item.links.map((link, i) => (
                                     <li key={i}>
-                                        <a
-                                            href="https://leadster.com.br/"
-                                            className="text-gray-500 transition hover:opacity-75">
+                                        <a href={link.url} className="text-gray-500 transition hover:opacity-75">
                                             {link.item}
                                         </a>
                                     </li>
@@ -92,11 +51,11 @@ export default function Footer() {
                         </div>
                     ))}
                     <div>
-                        <p className="font-semibold text-gray-300">Siga a Leadster</p>
+                        <p className="font-semibold text-gray-300">Siga a LeadsBy</p>
 
                         <ul className="mt-6 flex justify-start gap-6">
                             <li className="bg-gray-100 p-3 rounded-full text-gray-500 hover:bg-[#00aff0] hover:text-gray-50 cursor-pointer ease-in-out duration-500">
-                                <a target="_blank" href="https://www.linkedin.com/company/leadster-platform/">
+                                <a target="_blank" href="https://www.linkedin.com/company/leadsby/">
                                     <svg
                                         stroke="currentColor"
                                         fill="currentColor"
@@ -111,7 +70,7 @@ export default function Footer() {
                             </li>
 
                             <li className="bg-gray-100 p-3 rounded-full text-gray-500 hover:bg-[#00aff0] hover:text-gray-50 cursor-pointer ease-in-out duration-500">
-                                <a target="_blank" href="https://www.facebook.com/leadsterplatform">
+                                <a target="_blank" href="https://www.facebook.com/leadsby">
                                     <svg
                                         stroke="currentColor"
                                         fill="currentColor"
@@ -126,7 +85,7 @@ export default function Footer() {
                             </li>
 
                             <li className="bg-gray-100 p-3 rounded-full text-gray-500 hover:bg-[#00aff0] hover:text-gray-50 cursor-pointer ease-in-out duration-500">
-                                <a target="_blank" href="https://www.instagram.com/leadster.com.br/">
+                                <a target="_blank" href="https://www.instagram.com/leadsby/">
                                     <svg
                                         stroke="currentColor"
                                         fill="currentColor"
@@ -141,22 +100,22 @@ export default function Footer() {
                             </li>
                         </ul>
                         <div className="flex flex-col mt-4 text-sm text-gray-500">
-                            <span className="font-semibold">E-mail: contato@leadster.com.br</span>
-                            <span className="font-semibold">Telefone: (42) 988289851</span>
+                            <span className="font-semibold">E-mail: contato@leadsby.com.br</span>
+                            <span className="font-semibold">Telefone: (31) 975222507</span>
                         </div>
                     </div>
                 </div>
-                <div className="border-b-2 my-4"></div>
+                <div className="border-b-2 my-4 border-gray-700"></div>
                 <div className="flex justify-between">
                     <span className="text-sm text-gray-500">
-                        Copyright &copy; 2015 - 2023 Todos direitos reservados |{' '}
-                        <a href="https://leadster.com.br/" className="text-main-blue font-semibold">
-                            Leadster
+                        Copyright &copy; 2023 Todos direitos reservados |{' '}
+                        <a href="/" className="text-main-blue font-semibold">
+                            Leadsby
                         </a>
                     </span>
                     <span className="text-sm text-gray-500">
-                        Rua José Loureiro, 464 - Centro - Curitiba PR - CEP: 80010-000 |{' '}
-                        <a href="https://leadster.com.br/termos_de_uso/" className="text-main-blue font-semibold">
+                        Ipatinga MG - CEP: 35164-005 |{' '}
+                        <a href="/termos-de-uso" className="text-main-blue font-semibold">
                             Termos de uso
                         </a>
                     </span>

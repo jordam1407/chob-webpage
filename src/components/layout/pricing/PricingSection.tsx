@@ -33,7 +33,7 @@ function PricingSection() {
                     Simplifique seu processo de geração de leads com nosso chatbot intuitivo e plataforma integrada
                 </p>
             </div>
-            <div className="flex sm:flew-row flex-col sm:w-1/2 mx-auto justify-center sm:space-x-4 space-y-4 sm:space-y-0">
+            <div className="flex sm:flex-row flex-col sm:w-1/2 mx-auto justify-center sm:space-x-4 space-y-4 sm:space-y-0">
                 <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-gray-950 border rounded shadow-sm sm:items-center hover:shadow">
                     <div className="text-left">
                         <div className="text-lg font-semibold text-gray-100">Base</div>
@@ -50,9 +50,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Gerenciamento de Leads
                             </li>
@@ -64,9 +64,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 1 Atualização de ChatBot/mês
                             </li>
@@ -78,9 +78,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Chats Ilimitados
                             </li>
@@ -92,9 +92,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 100% Customizável
                             </li>
@@ -106,9 +106,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Desenvolvedor de Chatbot
                             </li>
@@ -120,9 +120,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Suporte/Instalação
                             </li>
@@ -134,9 +134,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Dashboard
                             </li>
@@ -148,9 +148,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Histórico de Chats
                             </li>
@@ -188,9 +188,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Gerenciamento de Leads
                             </li>
@@ -202,9 +202,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 2 Atualizações de ChatBot/mês
                             </li>
@@ -216,9 +216,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Chats Ilimitados
                             </li>
@@ -230,9 +230,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 100% Customizável
                             </li>
@@ -244,9 +244,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Desenvolvedor de Chatbot
                             </li>
@@ -258,9 +258,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Suporte/Instalação
                             </li>
@@ -272,9 +272,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Dashboard
                             </li>
@@ -286,9 +286,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Histórico de Chats
                             </li>
@@ -300,9 +300,9 @@ function PricingSection() {
                                     aria-hidden="true"
                                     className="h-6 w-5 flex-none text-gray-100 mr-4">
                                     <path
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                        clip-rule="evenodd"></path>
+                                        clipRule="evenodd"></path>
                                 </svg>
                                 Analytics Avançado
                             </li>

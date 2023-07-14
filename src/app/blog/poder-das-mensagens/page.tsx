@@ -5,8 +5,8 @@ import BlogPost from '@/components/layout/BlogPost/BlogPost'
 import Content from './readme.mdx'
 
 export const metadata: Metadata = {
-    title: 'Release 0.5.0 • Firezone Blog',
-    description: 'Firezone 0.5.0 Release',
+    title: 'O Poder das Mensagens',
+    description: 'O Poder das Mensagens: Aproveite o Potencial do Chat para Gerar Leads',
 }
 
 export default function Page() {
