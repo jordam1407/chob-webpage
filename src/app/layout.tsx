@@ -80,7 +80,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     {children}
                     <iframe
                         className="fixed z-50 sm:m-4 right-0 bottom-0"
-                        src="http://localhost:5173/"
+                        src="https://chob-taupe.vercel.app/"
                         width="100%"
                         height="100%"
                         title="LeadsBy Chatbot"></iframe>
