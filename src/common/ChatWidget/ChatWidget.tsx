@@ -7,18 +7,17 @@ const ChatWidget = () => {
     useEffect(() => {
         const messageListener = (event: MessageEvent) => {
             if (event.data.type === 'iframe-data') {
-                const { isOpen, isMobileDevice } = event.data.payload
+                const { isOpen, isMobile } = event.data.payload
                 if (!isOpen) {
                     setSize({ width: '96px', height: '96px' })
                 }
                 if (isOpen) {
-                    if (isMobileDevice) {
+                    if (isMobile) {
                         setSize({ width: '100%', height: '100%' })
                     } else {
                         setSize({ width: '402px', height: '90%' })
                     }
                 }
-                console.log(isOpen, isMobileDevice)
             }
         }
 
@@ -32,8 +31,8 @@ const ChatWidget = () => {
     return (
         <iframe
             title="chat"
-            className="fixed z-10 right-0 bottom-0"
-            src="http://localhost:5173/"
+            className="fixed z-50 right-0 bottom-0"
+            src="https://chob-taupe.vercel.app/"
             width={size.width}
             height={size.height}
         />

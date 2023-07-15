@@ -14,7 +14,7 @@ function NavigationHeader({ image, navs }: NavigationHeaderProps) {
                 <nav className="flex justify-between p-2 px-4">
                     <div className="flex justify-between items-center w-full">
                         <div className="w-full lg:w-1/3">
-                            <a className="block max-w-max relative z-50" href="/">
+                            <a className="block max-w-max relative z-20" href="/">
                                 <img className="h-10" src={logo.src} alt="" />
                             </a>
                         </div>
