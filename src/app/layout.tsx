@@ -4,6 +4,7 @@ import { Suspense } from 'react'
 
 import HomeLoading from '@/app/loading'
 import './globals.css'
+import ChatBot from '@/common/ChatWidget/ChatWidget'
 import Footer from '@/components/layout/Footer'
 import NavigationHeader from '@/components/layout/NavigationHeader'
 
@@ -78,12 +79,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <div className="z-10 rounded-[32px] absolute sm:w-[120px] sm:h-[280px] w-[120px] h-[180px] bg-blue-600 sm:blur-[130px] blur-[100px] sm:-top-28 -top-20 -left-16" />
                     <div className="z-10 rounded-[32px] absolute sm:w-[120px] sm:h-[180px] w-[120px] h-[80px] bg-blue-600 sm:blur-[130px] blur-[80px] sm:top-0 top-36 right-0" />
                     {children}
-                    <iframe
-                        className="fixed z-50 sm:m-4 right-0 bottom-0"
-                        src="https://chob-taupe.vercel.app/"
-                        width="100%"
-                        height="100%"
-                        title="LeadsBy Chatbot"></iframe>
+                    <ChatBot />y
                     <Footer />
                 </body>
             </Suspense>
